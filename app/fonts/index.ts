@@ -24,14 +24,14 @@ export const foundersGrotesk = localFont({
     src: [
         {
             path: './founders-grotesk/FoundersGrotesk-Semibold.otf',
-            weight: '400',
+            weight: '700',
             style: 'normal',
         },
-        {
-            path: './thicccboi/THICCCBOI-Thin.ttf',
-            weight: '400',
-            style: 'normal',
-        }
+        // {
+        //     path: './founders-grotesk/FoundersGrotesk-Bold.otf',
+        //     weight: '400',
+        //     style: 'normal',
+        // }
     ]
 })
 
