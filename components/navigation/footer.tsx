@@ -15,8 +15,8 @@ export default function Footer() {
     return (
         <footer className="bg-gradient-to-b from-[#3D1B6B] to-[#2D1250]">
             {/* Main Footer Content */ }
-            <div className="px-4 py-16">
-                <div className="max-w-7xl mx-auto">
+            <div className="px-8 lg:px- xl:px-24 py-16">
+                <div className="max-w-[1800px] mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-4 gap-12">
                         {/* Left Column - Brand & Newsletter */ }
                         <div className="lg:col-span-1">
@@ -25,8 +25,7 @@ export default function Footer() {
                             </h2>
                             <p className="text-white/90 mb-8 leading-relaxed">
                                 Bolt Tax is built to make tax filing simple, affordable, and stress-free for students.
-                                From maximizing refunds to offering step-by-step guidance, we&apos;re here to help you
-                                file
+                                From maximizing refunds to offering step-by-step guidance, we're here to help you file
                                 with confidence.
                             </p>
 
@@ -180,7 +179,7 @@ export default function Footer() {
 
             {/* Bottom Bar */ }
             <div className="border-t border-white/20">
-                <div className="max-w-7xl mx-auto px-4 py-6">
+                <div className="max-w-[1600px] mx-auto px-8 lg:px-16 xl:px-24 py-6">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         {/* Copyright */ }
                         <p className="text-[#A78BFA] text-base">
