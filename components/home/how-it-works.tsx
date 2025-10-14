@@ -5,7 +5,7 @@ import { User, FileText } from "lucide-react";
 export default function HowItWorksSection() {
     return (
         <section className="phy-20 px-4 bg-gradient-to-b from-gray-50 to-white">
-            <div className="max-w-7xl mx-auto">
+            <div className="max-w-[90%] mx-auto">
                 {/* Section Title */ }
                 <h2 className="text-5xl md:text-6xl font-bold text-center text-[#5520B2] mb-16">
                     How It Works

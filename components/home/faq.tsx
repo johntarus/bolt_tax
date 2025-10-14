@@ -35,35 +35,35 @@ export default function FAQSection() {
 
     return (
         <section className="py-20 px-4 bg-white">
-            <div className="max-w-7xl mx-auto">
-                <div className="flex flex-col lg:flex-row gap-16">
+            <div className="max-w-[90%] mx-auto">
+                <div className="flex flex-col lg:flex-row gap-0">
                     {/* Left Side - Content */ }
-                    <div className="flex-1 lg:sticky lg:top-24 lg:self-start">
-                        <h2 className="text-5xl md:text-6xl font-bold text-[#5520B2] mb-8 leading-tight">
+                    <div className="flex-1 lg:sticky lg:top-24 lg:self-start flex flex-col justify-center min-h-[60vh]">
+                        <h2 className="text-5xl md:text-6xl xl:text-7xl 2xl:text-[5rem] font-bold text-[#5520B2] mb-8 leading-none">
                             Your questions,<br/>answered
                         </h2>
 
-                        <p className="text-xl text-[#7C3AED] mb-8 leading-relaxed max-w-md">
-                            Get quick answers to the most common questions about our platform and
+                        <p className="text-xl xl:text-3xl text-[#7C3AED] mb-4 leading-none max-w-md">
+                            Get quick answers to the most common <br/> questions about our platform
                         </p>
 
                         <button
-                            className="inline-flex items-center gap-3 bg-[#6B2FEB] hover:bg-[#5A24CC] text-white text-lg font-semibold px-8 py-4 rounded-xl transition-all">
+                            className="inline-flex items-center gap-3 bg-[#6B2FEB] hover:bg-[#5A24CC] text-white text-lg font-semibold px-8 py-4 rounded-xl transition-all w-fit">
                             Contact us
                             <ArrowRight className="w-5 h-5"/>
                         </button>
                     </div>
 
                     {/* Right Side - FAQ Accordion */ }
-                    <div className="flex-1">
-                        <div className="space-y-4">
+                    <div className="flex-1 relative shadow-[-2px_2px_2px_#DBC7FF] rounded-2xl">
+                        <div className="space-y-4 pl-8 pb-12">
                             { faqs.map((faq, index) => (
                                 <div
                                     key={ index }
                                     className={ `rounded-2xl transition-all ${
                                         openIndex === index
-                                            ? 'bg-gradient-to-br from-[#E9D5FF] to-[#DDD6FE]'
-                                            : 'bg-gradient-to-br from-[#E9D5FF] to-[#DDD6FE]'
+                                            ? 'bg-gradient-to-r from-[#ffffff] to-[#dcc8ff]'
+                                            : 'bg-gradient-to-r from-[#ffffff] to-[#dcc8ff]'
                                     }` }
                                 >
                                     <button
@@ -95,15 +95,14 @@ export default function FAQSection() {
                                         }` }
                                     >
                                         <div className="px-6 pb-6 pt-0">
-                                            <p className="text-gray-900 leading-relaxed pl-10">
-                                                { faq.answer }
-                                            </p>
+                                            <p className="text-xl text-gray-900 leading-snug">{ faq.answer }</p>
                                         </div>
                                     </div>
                                 </div>
                             )) }
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
