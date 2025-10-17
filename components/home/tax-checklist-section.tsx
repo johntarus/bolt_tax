@@ -56,7 +56,7 @@ export default function TaxChecklistSection() {
                                         className="mt-0.5 w-4 h-4 lg:w-5 lg:h-5 flex-shrink-0 rounded border-gray-300 text-[#6B2FEB] focus:ring-[#6B2FEB]"
                                     />
                                     <span className="text-sm lg:text-base text-gray-800 leading-relaxed">
-                                        Copies of last year's tax return for you and your spouse
+                                        Copies of last year&apos;s tax return for you and your spouse
                                     </span>
                                 </li>
                                 <li className="flex items-start gap-2 lg:gap-3">
