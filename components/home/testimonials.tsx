@@ -44,7 +44,7 @@ export default function TestimonialSection() {
                 />
                 {/* Inner white oval to create the hollow effect */ }
                 <div
-                    className="absolute top-1/2 left-1/2 w-[35vw] h-[70vh] min-w-[500px] min-h-[500px] bg-white rounded-full transform -translate-x-1/2 -translate-y-1/2 scale-y-125"
+                    className="absolute top-1/2 left-1/2 w-[45vw] xtral2:w-90vw] xtral3:w-[50vw] xtral:w-[35vw] h-[70vh] min-w-[500px] min-h-[500px] bg-white rounded-full transform -translate-x-1/2 -translate-y-1/2 scale-y-125"
                 />
             </div>
 
