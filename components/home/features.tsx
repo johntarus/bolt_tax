@@ -5,19 +5,19 @@ import { urbanist, roboto } from "@/app/fonts";
 
 export default function FeaturesSection() {
     return (
-        <section className="py-20 px-4 bg-gray-50">
-            <div className="max-w-[90%] mx-auto">
+        <section className="py-10 px-4 bg-gray-50">
+            <div className="max-w-[100%] md:max-w-[90%] mx-auto">
                 {/* Top Row */ }
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                     {/* Left Column - Text Content */ }
                     <div>
-                        <h2 className="text-5xl md:text-6xl font-bold text-[#5520B2] mb-6 leading-tight">
+                        <h2 className={ `${ urbanist.className } text-4xl md:text-6xl xl:text-7xl font-bold text-[#5520B2] mb-6 leading-none` }>
                             Comprehensive Tax Solutions
                             <br/>
                             Tailored for You
                         </h2>
                         <p
-                            className={ `${ urbanist.className } text-xl md:text-3xl text-[#5520B2] mb-8 leading-relaxed` }
+                            className={ `${ urbanist.className } text-2xl md:text-3xl xl:text-4xl text-[#5520B2] mb-8 leading-none` }
                         >
                             Whether it&apos;s your first time filing or not, Bolt Tax makes it
                             quick and easy to stay on track.
@@ -36,7 +36,7 @@ export default function FeaturesSection() {
                     </div>
 
                     {/* Right Column - Card */ }
-                    <div className="bg-purple-900 rounded-3xl p-8 text-white">
+                    <div className="bg-gradient-to-br from-[#3D1B6B] to-[#5520B2] rounded-3xl p-8 text-white">
                         <div className="bg-white rounded-2xl p-6 mb-6 flex justify-center items-center">
                             <Image
                                 src="/images/complete_filings.svg"
@@ -64,7 +64,7 @@ export default function FeaturesSection() {
                 {/* Bottom Row */ }
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-8">
                     {/* Tax Consulting Card */ }
-                    <div className="bg-purple-900 rounded-3xl p-8 text-white">
+                    <div className="bg-gradient-to-br from-[#3D1B6B] to-[#5520B2] rounded-3xl p-8 text-white">
                         <div className="bg-white rounded-2xl p-6 mb-6 flex justify-center items-center">
                             <Image
                                 src="/images/saving_perfomance.png"
@@ -89,7 +89,7 @@ export default function FeaturesSection() {
                     </div>
 
                     {/* Tax Withholdings Card */ }
-                    <div className="bg-purple-900 rounded-3xl p-8 text-white">
+                    <div className="bg-gradient-to-br from-[#3D1B6B] to-[#5520B2] rounded-3xl p-8 text-white">
                         <div className="bg-white rounded-2xl p-6 mb-6 flex justify-center items-center">
                             <Image
                                 src="/images/income_withholding.svg"

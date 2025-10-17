@@ -18,9 +18,9 @@ const Hero = () => {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */ }
-            <section className="py-24 px-4 bg-gradient-to-b from-purple-50 to-white">
-                <div className="max-w-7xl 2xl:max-w-[1500px] mx-auto text-center"><h1
-                    className={ `${ foundersGrotesk.className } text-5xl md:text-6xl xl:text-7xl 2xl:text-8xl font-bold text-[#5520B2] mb-6` }
+            <section className="pt-24 pb-16 px-4 bg-gradient-to-b from-purple-50 to-white">
+                <div className="max-w-[100%] md:max-w-[90%] mx-auto text-center"><h1
+                    className={ `${ foundersGrotesk.className } text-4xl md:text-6xl xl:text-7xl font-bold text-[#5520B2] mb-6` }
                 >
                     Bolt Tax Gives{ ' ' }
                     <span className="text-[#21005D]">
@@ -37,12 +37,14 @@ const Hero = () => {
                     <br/>
                     the Smartest Way to File Taxes
                 </h1>
-                    <p className={ `${ urbanist.className } text-xl md:text-[1.75rem] xl:text-4xl 2xl:text-5xl text-[#5520B2] font-thin mb-8 mx-auto` }>
+                    <p className={ `${ urbanist.className } text-2xl md:text-[1.75rem] xl:text-4xl 2xl:text-5xl text-[#5520B2] font-thin mb-8 mx-auto` }>
                         Designed for residents and non-residents in the US , Bolt Tax helps you keep more of your money
                         while staying IRS-compliant.</p>
-                    <div className="flex flex-col sm:flex-row gap-12 justify-center items-center">
+                    <div
+                        className="flex flex-col sm:flex-row gap-4 md:gap-12 justify-center items-center w-full sm:w-auto">
                         <button
-                            className="px-7 pb-5 pt-3 bg-[#7120FF] text-white rounded-[10px] hover:bg-purple-800 flex items-center gap-2 text-lg font-semibold">
+                            className="w-[80%] sm:w-[200px] md:w-[220px] lg:w-[240px] px-7 pb-5 pt-3 bg-[#7120FF] text-white rounded-[10px] hover:bg-purple-800 flex items-center justify-center gap-2 text-lg font-semibold"
+                        >
                             Request Demo
                             <Image
                                 src="/icons/white_arrow.png"
@@ -53,7 +55,8 @@ const Hero = () => {
                             />
                         </button>
                         <button
-                            className="px-7 pb-5 pt-3 border-2 border-[#7120FF] text-[#7120FF] rounded-[10px] hover:bg-purple-50 text-lg font-semibold flex items-center gap-2">
+                            className="w-[80%] sm:w-[200px] md:w-[220px] lg:w-[240px] px-7 pb-5 pt-3 border-2 border-[#7120FF] text-[#7120FF] rounded-[10px] hover:bg-purple-50 text-lg font-semibold flex items-center justify-center gap-2"
+                        >
                             Get Started
                             <Image
                                 src="/icons/blue_arrow.png"

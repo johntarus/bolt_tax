@@ -44,7 +44,7 @@ const features: Feature[] = [
 
 export default function WhyChooseSection() {
     return (
-        <section className="py-20 px-4">
+        <section className="py-8 md:py-20 px-4">
             <div className="max-w-[90%] mx-auto">
                 {/* Heading */ }
                 <div className="text-center mb-4">
@@ -56,7 +56,7 @@ export default function WhyChooseSection() {
                         Choose Bolt Tax
                     </h2>
                     <p
-                        className={ `${ urbanist.className } text-xl lg:text-2xl xl:text-2xl text-[#5520B2] mx-auto` }
+                        className={ `${ urbanist.className } text-2xl lg:text-3xl xl:text-4xl text-[#5520B2] mx-auto` }
                     >
                         Filing taxes as a student can be overwhelming, but with Bolt Tax, you
                         don&apos;t have to do it alone.
@@ -81,13 +81,13 @@ export default function WhyChooseSection() {
                             </div>
 
                             <h3
-                                className={ `${ urbanist.className } text-2xl md:text-3xl text-[#000000] mb-4` }
+                                className={ `${ urbanist.className } font-medium text-2xl md:text-3xl lg:text-4xl text-[#000000] mb-4` }
                             >
                                 { title }
                             </h3>
 
                             <p
-                                className={ `${ urbanist.className } text-[#000000] text-xl leading-relaxed` }
+                                className={ `${ urbanist.className } font-normal text-[#000000] text-xl md:text-2xl xl:text-[1.78rem] leading-relaxed` }
                             >
                                 { description }
                             </p>

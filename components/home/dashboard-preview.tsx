@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function DashboardPreview() {
     return (
-        <section className="py-12 md:py-16 px-4 bg-gray-50">
+        <section className="py-0 md:py-16 px-4 bg-gray-50">
             <div className="flex justify-center">
                 <Image
                     src="/images/dashboard_preview.svg"
