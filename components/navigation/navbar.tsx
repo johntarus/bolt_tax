@@ -20,7 +20,7 @@ const NavBar = () => {
 
     return (
         <header className="bg-white sticky top-0 z-50 shadow-sm">
-            <div className="max-w-[100%] md:max-w-[90%] mx-auto px-0 pr-4 md:pr-0 md:px-12">
+            <div className="max-w-[100%] md:max-w-[95%] mx-auto px-0 pr-4 md:pr-0 md:px-4">
                 <div className="flex justify-between items-center h-20">
                     <Link href="/" className="flex items-center">
                         <Image

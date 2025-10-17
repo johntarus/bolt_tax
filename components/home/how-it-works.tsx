@@ -16,13 +16,13 @@ export default function HowItWorksSection() {
                 {/* Three Cards Grid */ }
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="bg-white rounded-3xl shadow-lg p-8 flex flex-col">
-                        <h3 className={ `${ thiccboi.className } text-2xl xl:text-4xl font-semibold text-[#5C34A2] mb-6` }>
+                        <h3 className={ `${ thiccboi.className } font-semibold text-2xl xl:text-4xl text-[#5C34A2] mb-6` }>
                             Sign Up
                         </h3>
-                        <h4 className={ `${ urbanist.className } text-2xl xl:text-3xl font-semibold text-gray-900 mb-6` }>
+                        <h4 className={ `${ urbanist.className } font-medium text-2xl xl:text-3xl text-gray-900 mb-6` }>
                             Create Your Free<br/>Account
                         </h4>
-                        <p className={ `${ urbanist.className } text-2xl text-[#000000] mb-8 flex-grow pr-6 lg:pr-16` }>
+                        <p className={ `${ urbanist.className } font-normal text-2xl text-[#000000] mb-8 flex-grow pr-6 lg:pr-16` }>
                             Start by signing up in just a few minutes. No hidden fees, no complicated forms.
                         </p>
 

@@ -20,7 +20,7 @@ const Hero = () => {
             {/* Hero Section */ }
             <section className="pt-24 pb-16 px-4 bg-gradient-to-b from-purple-50 to-white">
                 <div className="max-w-[100%] md:max-w-[90%] mx-auto text-center"><h1
-                    className={ `${ foundersGrotesk.className } text-4xl md:text-6xl xl:text-7xl font-bold text-[#5520B2] mb-6` }
+                    className={ `${ foundersGrotesk.className } font-medium text-4xl md:text-6xl xl:text-7xl text-[#5520B2] mb-6` }
                 >
                     Bolt Tax Gives{ ' ' }
                     <span className="text-[#21005D]">
@@ -37,7 +37,7 @@ const Hero = () => {
                     <br/>
                     the Smartest Way to File Taxes
                 </h1>
-                    <p className={ `${ urbanist.className } text-2xl md:text-[1.75rem] xl:text-4xl 2xl:text-5xl text-[#5520B2] font-thin mb-8 mx-auto` }>
+                    <p className={ `${ urbanist.className } font-normal text-2xl md:text-[1.75rem] xl:text-4xl 2xl:text-4xl text-[#5520B2] mb-8 mx-auto` }>
                         Designed for residents and non-residents in the US , Bolt Tax helps you keep more of your money
                         while staying IRS-compliant.</p>
                     <div
