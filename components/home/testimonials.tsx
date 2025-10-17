@@ -36,7 +36,8 @@ export default function TestimonialSection() {
         <section className="relative min-h-screen py-16 px-4 bg-gray-50 overflow-hidden flex items-center">
             {/* Hollow Purple Circle */ }
             <div
-                className="absolute top-1/2 -left-100 transform -translate-y-1/2 -translate-x-[35%] pointer-events-none">
+                className="absolute top-1/2 -left-100 transform -translate-y-1/2 -translate-x-[35%] pointer-events-none hidden md:block"
+            >
                 {/* Outer purple oval */ }
                 <div
                     className="w-[60vw] h-[100vh] min-w-[850px] min-h-[850px] bg-[#6B46C1] rounded-full scale-y-125"
