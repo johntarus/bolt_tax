@@ -3,19 +3,25 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { ChevronDown } from 'lucide-react';
-import { roboto } from "@/app/fonts";
+import Image from "next/image";
 
 const NavBar = () => {
     const [isServicesOpen, setIsServicesOpen] = useState(false);
+    let closeTimeout: NodeJS.Timeout;
 
     return (
         <header className="bg-white sticky top-0 z-50 shadow-sm">
-            <div className="w-full mx-auto px-12">
+            <div className="max-w-[100%] md:max-w-[90%] mx-auto px-0 pr-4 md:pr-0 md:px-12">
                 <div className="flex justify-between items-center h-20">
                     <Link href="/" className="flex items-center">
-            <span className={ `${ roboto.className } text-3xl font-black italic text-[#21005D]` }>
-              BOLT TAX
-            </span>
+                        <Image
+                            src="/icons/logo.svg"
+                            alt="Tax Compliance"
+                            width={ 218 }
+                            height={ 33 }
+                            className="w-7/10 md:w-9/10 h-auto object-contain mx-auto"
+                            priority
+                        />
                     </Link>
 
                     {/* Navigation */ }
@@ -30,11 +36,17 @@ const NavBar = () => {
                         {/* Services Dropdown */ }
                         <div
                             className="relative"
-                            onMouseEnter={ () => setIsServicesOpen(true) }
-                            onMouseLeave={ () => setIsServicesOpen(false) }
+                            onMouseEnter={ () => {
+                                clearTimeout(closeTimeout);
+                                setIsServicesOpen(true);
+                            } }
+                            onMouseLeave={ () => {
+                                closeTimeout = setTimeout(() => setIsServicesOpen(false), 150);
+                            } }
                         >
                             <button
-                                className="flex items-center gap-1 text-gray-800 hover:text-blue-900 font-medium transition-colors">
+                                className="flex items-center gap-1 text-[#0F161E] hover:text-[#240E4C] font-medium transition-colors"
+                            >
                                 Services
                                 <ChevronDown
                                     size={ 18 }
@@ -44,28 +56,31 @@ const NavBar = () => {
 
                             { isServicesOpen && (
                                 <div
-                                    className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2">
+                                    className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2 z-50"
+                                    onMouseEnter={ () => setIsServicesOpen(true) } // Keep open while hovering dropdown
+                                    onMouseLeave={ () => setIsServicesOpen(false) } // Close after leaving dropdown
+                                >
                                     <Link
                                         href="/services/tax-filing"
-                                        className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-900 transition-colors"
+                                        className="block px-4 py-3 text-[#0F161E] hover:bg-blue-50 hover:text-[#240E4C] transition-colors"
                                     >
                                         Tax Filing
                                     </Link>
                                     <Link
                                         href="/services/tax-consulting"
-                                        className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-900 transition-colors"
+                                        className="block px-4 py-3 text-[#0F161E] hover:bg-blue-50 hover:text-[#240E4C] transition-colors"
                                     >
                                         Tax Consulting
                                     </Link>
                                     <Link
                                         href="/services/tax-planning"
-                                        className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-900 transition-colors"
+                                        className="block px-4 py-3 text-[#0F161E] hover:bg-blue-50 hover:text-[#240E4C] transition-colors"
                                     >
                                         Tax Planning
                                     </Link>
                                     <Link
                                         href="/services/audit-support"
-                                        className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-900 transition-colors"
+                                        className="block px-4 py-3 text-[#0F161E] hover:bg-blue-50 hover:text-[#240E4C] transition-colors"
                                     >
                                         Audit Support
                                     </Link>
@@ -75,14 +90,14 @@ const NavBar = () => {
 
                         <Link
                             href="/blog"
-                            className="text-gray-800 hover:text-blue-900 font-medium transition-colors"
+                            className="text-[#0F161E] hover:text-[#240E4C] font-medium transition-colors"
                         >
                             Blog
                         </Link>
 
                         <Link
                             href="/about"
-                            className="text-gray-800 hover:text-blue-900 font-medium transition-colors"
+                            className="text-[#0F161E] hover:text-[#240E4C] font-medium transition-colors"
                         >
                             About
                         </Link>
@@ -92,20 +107,20 @@ const NavBar = () => {
                     <div className="hidden md:flex items-center gap-4">
                         <Link
                             href="/signup"
-                            className="px-6 py-1 border-2 border-gray-900 text-gray-900 rounded-full font-semibold hover:bg-gray-50 transition-colors"
+                            className="px-6 py-2 border-2 border-[#0F161E] text-[#0F161E] rounded-full font-semibold hover:bg-gray-50 transition-colors"
                         >
                             Sign Up
                         </Link>
                         <Link
                             href="/login"
-                            className="px-6 py-1 bg-gray-900 text-white rounded-full font-semibold hover:bg-gray-800 transition-colors"
+                            className="px-6 py-2 bg-[#0F161E] text-white rounded-full font-semibold hover:bg-[#240E4C] transition-colors"
                         >
                             Login
                         </Link>
                     </div>
 
                     {/* Mobile Menu Button */ }
-                    <button className="md:hidden p-2 text-gray-900">
+                    <button className="md:hidden p-2 text-[#0F161E]">
                         <svg
                             className="w-6 h-6"
                             fill="none"
