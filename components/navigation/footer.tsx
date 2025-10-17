@@ -1,9 +1,7 @@
 "use client";
 
-import { Facebook, Instagram, Linkedin } from "lucide-react";
 import { useState } from "react";
-import { thiccboi, urbanist } from "@/app/fonts";
-import Image from "next/image";
+import { thiccboi } from "@/app/fonts";
 
 export default function Footer() {
     const [email, setEmail] = useState("");

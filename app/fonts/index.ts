@@ -27,11 +27,11 @@ export const foundersGrotesk = localFont({
             weight: '700',
             style: 'normal',
         },
-        // {
-        //     path: './founders-grotesk/FoundersGrotesk-Bold.otf',
-        //     weight: '400',
-        //     style: 'normal',
-        // }
+        {
+            path: './founders-grotesk/FoundersGrotesk-Bold.otf',
+            weight: '400',
+            style: 'normal',
+        }
     ]
 })
 

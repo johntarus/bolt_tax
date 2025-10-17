@@ -1,7 +1,9 @@
 "use client";
 
-import { Sparkles, Plus, Minus, ArrowRight } from "lucide-react";
-import { SetStateAction, useState } from "react";
+import { Sparkles, Plus, Minus } from "lucide-react";
+import React, { SetStateAction, useState } from "react";
+import { foundersGrotesk, thiccboi, urbanist } from "@/app/fonts";
+import Image from "next/image";
 
 export default function FAQSection() {
     const [openIndex, setOpenIndex] = useState(0);
@@ -38,19 +40,26 @@ export default function FAQSection() {
             <div className="max-w-[90%] mx-auto">
                 <div className="flex flex-col lg:flex-row gap-0">
                     {/* Left Side - Content */ }
-                    <div className="flex-1 lg:sticky lg:top-24 lg:self-start flex flex-col justify-center min-h-[60vh]">
-                        <h2 className="text-5xl md:text-6xl xl:text-7xl 2xl:text-[5rem] font-bold text-[#5520B2] mb-8 leading-none">
+                    <div
+                        className="flex-1 lg:sticky lg:top-24 lg:self-start flex flex-col md:justify-center min-h-[30vh] md:min-h-[60vh]">
+                        <h2 className={ `${ thiccboi.className } text-5xl md:text-6xl xl:text-7xl 2xl:text-[5rem] font-bold text-[#5520B2] mb-4 md:mb-8 leading-none` }>
                             Your questions,<br/>answered
                         </h2>
 
-                        <p className="text-xl xl:text-3xl text-[#7C3AED] mb-4 leading-none max-w-md">
+                        <p className={ `${ urbanist.className } text-xl xl:text-3xl text-[#7C3AED] mb-4 leading-none max-w-md` }>
                             Get quick answers to the most common <br/> questions about our platform
                         </p>
 
                         <button
-                            className="inline-flex items-center gap-3 bg-[#6B2FEB] hover:bg-[#5A24CC] text-white text-lg font-semibold px-8 py-4 rounded-xl transition-all w-fit">
+                            className={ `${ foundersGrotesk.className } inline-flex items-center gap-3 bg-[#6B2FEB] hover:bg-[#5A24CC] text-white text-xl font-semibold px-8 py-4 rounded-xl transition-all w-fit` }>
                             Contact us
-                            <ArrowRight className="w-5 h-5"/>
+                            <Image
+                                src="/icons/white_arrow.png"
+                                alt="Arrow right"
+                                width={ 25 }
+                                height={ 29 }
+                                className="object-contain ml-2"
+                            />
                         </button>
                     </div>
 
@@ -71,8 +80,8 @@ export default function FAQSection() {
                                         className="w-full flex items-center justify-between p-6 text-left"
                                     >
                                         <div className="flex items-center gap-4 flex-1">
-                                            <Sparkles className="w-6 h-6 text-[#7C3AED] flex-shrink-0"/>
-                                            <h3 className="text-xl md:text-2xl font-semibold text-[#7C3AED]">
+                                            <Sparkles className="w-6 h-6 text-[#7C3AED] fill-current flex-shrink-0"/>
+                                            <h3 className={ `${ thiccboi.className } text-xl md:text-2xl font-semibold text-[#7C3AED]` }>
                                                 { faq.question }
                                             </h3>
                                         </div>
@@ -94,8 +103,8 @@ export default function FAQSection() {
                                             openIndex === index ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
                                         }` }
                                     >
-                                        <div className="px-6 pb-6 pt-0">
-                                            <p className="text-xl text-gray-900 leading-snug">{ faq.answer }</p>
+                                        <div className={ `${ urbanist.className } px-6 pb-6 pt-0` }>
+                                            <p className="text-xl xl:text-2xl text-gray-900 leading-snug">{ faq.answer }</p>
                                         </div>
                                     </div>
                                 </div>
