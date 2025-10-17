@@ -2,6 +2,7 @@
 
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import React, { useState } from "react";
+import Image from "next/image";
 
 export default function TestimonialSection() {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -50,27 +51,30 @@ export default function TestimonialSection() {
 
 
             {/* Circular Purple Decorative Shapes - Top Right */ }
-            <div className="absolute right-32 top-40 w-48 h-48 bg-purple-200 rounded-full opacity-20 blur-3xl"></div>
-            <div className="absolute right-48 top-52 w-40 h-40 bg-purple-300 rounded-full opacity-15 blur-2xl"></div>
+            {/*<div className="absolute right-32 top-40 w-48 h-48 bg-purple-200 rounded-full opacity-20 blur-3xl"></div>*/ }
+            {/*<div className="absolute right-48 top-52 w-40 h-40 bg-purple-300 rounded-full opacity-15 blur-2xl"></div>*/ }
 
             {/* Main Content */ }
             <div className="max-w-[90%] mx-auto relative z-10 w-full">
                 <div className="flex flex-col lg:flex-row items-center gap-0">
                     {/* Left Side - Image */ }
                     <div className="w-full lg:w-2/5 flex">
-                        <div className="relative w-full">
-                            <img
+                        <div className="relative w-full h-[500px] lg:h-[900px] rounded-xl overflow-hidden shadow-xl">
+                            <Image
                                 src="/images/students.svg"
                                 alt="Students Collaborating"
-                                className="w-full h-[500px] lg:h-[900px] rounded-3xl object-cover shadow-xl"
+                                fill
+                                className="object-cover"
+                                priority
                             />
                         </div>
+
                     </div>
 
                     {/* Right Side - Testimonials */ }
                     <div className="w-full lg:w-3/5 relative">
                         <div className="relative lg:pl-8">
-                            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#7C3AED] mb-8 lg:mb-12 leading-tight">
+                            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#7120FF] mb-8 lg:mb-12 leading-tight">
                                 What our client say<br/>about us?
                             </h2>
 
@@ -86,7 +90,7 @@ export default function TestimonialSection() {
                                 </div>
 
                                 <blockquote className="text-base md:text-lg lg:text-xl text-gray-800 leading-relaxed">
-                                    "{ testimonials[currentSlide].quote }"
+                                    { testimonials[currentSlide].quote }
                                 </blockquote>
                             </div>
 

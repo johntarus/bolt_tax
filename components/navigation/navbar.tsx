@@ -12,14 +12,13 @@ const NavBar = () => {
         <header className="bg-white sticky top-0 z-50 shadow-sm">
             <div className="w-full mx-auto px-12">
                 <div className="flex justify-between items-center h-20">
-                    {/* Logo */}
                     <Link href="/" className="flex items-center">
-            <span className={`${roboto.className} text-3xl font-black italic text-[#21005D]`}>
+            <span className={ `${ roboto.className } text-3xl font-black italic text-[#21005D]` }>
               BOLT TAX
             </span>
                     </Link>
 
-                    {/* Navigation */}
+                    {/* Navigation */ }
                     <nav className="hidden md:flex items-center text-[#0F161E] space-x-10">
                         <Link
                             href="/"
@@ -28,22 +27,22 @@ const NavBar = () => {
                             Home
                         </Link>
 
-                        {/* Services Dropdown */}
+                        {/* Services Dropdown */ }
                         <div
                             className="relative"
-                            onMouseEnter={() => setIsServicesOpen(true)}
-                            onMouseLeave={() => setIsServicesOpen(false)}
+                            onMouseEnter={ () => setIsServicesOpen(true) }
+                            onMouseLeave={ () => setIsServicesOpen(false) }
                         >
                             <button
                                 className="flex items-center gap-1 text-gray-800 hover:text-blue-900 font-medium transition-colors">
                                 Services
                                 <ChevronDown
-                                    size={18}
-                                    className={`transition-transform ${isServicesOpen ? 'rotate-180' : ''}`}
+                                    size={ 18 }
+                                    className={ `transition-transform ${ isServicesOpen ? 'rotate-180' : '' }` }
                                 />
                             </button>
 
-                            {isServicesOpen && (
+                            { isServicesOpen && (
                                 <div
                                     className="absolute top-full left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-gray-200 py-2">
                                     <Link
@@ -71,7 +70,7 @@ const NavBar = () => {
                                         Audit Support
                                     </Link>
                                 </div>
-                            )}
+                            ) }
                         </div>
 
                         <Link
@@ -89,7 +88,7 @@ const NavBar = () => {
                         </Link>
                     </nav>
 
-                    {/* CTA Buttons */}
+                    {/* CTA Buttons */ }
                     <div className="hidden md:flex items-center gap-4">
                         <Link
                             href="/signup"
@@ -105,7 +104,7 @@ const NavBar = () => {
                         </Link>
                     </div>
 
-                    {/* Mobile Menu Button */}
+                    {/* Mobile Menu Button */ }
                     <button className="md:hidden p-2 text-gray-900">
                         <svg
                             className="w-6 h-6"
@@ -116,7 +115,7 @@ const NavBar = () => {
                             <path
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
-                                strokeWidth={2}
+                                strokeWidth={ 2 }
                                 d="M4 6h16M4 12h16M4 18h16"
                             />
                         </svg>

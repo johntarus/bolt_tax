@@ -3,7 +3,7 @@
 import { Check } from "lucide-react";
 import Image from "next/image";
 import React from "react";
-import { thiccboi } from "@/app/fonts";
+import { thiccboi, urbanist } from "@/app/fonts";
 
 export default function WhyJoinEarlySection() {
     return (
@@ -23,17 +23,17 @@ export default function WhyJoinEarlySection() {
 
                 {/* Right Side - Content */ }
                 <div className="flex-1">
-                    <h2 className={ `${ thiccboi.className } text-5xl md:text-5xl font-bold text-[#5520B2] mb-2 leading-tight` }>
+                    <h2 className={ `${ thiccboi.className } text-5xl lg:text-6xl font-bold text-[#5520B2] mb-2 leading-none` }>
                         Why Join Early<br/>Bolt Tax?
                     </h2>
 
-                    <p className="text-xl text-[#5520B2] mb-6 leading-relaxed">
+                    <p className={ `${ urbanist.className } text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-[#5520B2] mb-6 leading-none` }>
                         Be part of the smarter way students handle taxes, get early access today and start enjoying the
                         benefits right away.
                     </p>
 
                     {/* Benefits Grid */ }
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div className={ `${ urbanist.className } grid grid-cols-1 md:grid-cols-2 gap-6` }>
                         <div className="flex items-center gap-3">
                             <div
                                 className="w-8 h-8 rounded-full bg-[#CFB0FB] flex items-center justify-center flex-shrink-0">
