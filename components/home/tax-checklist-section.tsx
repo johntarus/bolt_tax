@@ -101,7 +101,8 @@ export default function TaxChecklistSection() {
                                               clipRule="evenodd"/>
                                     </svg>
                                 </div>
-                                <span className="text-xs lg:text-sm">And you&apos;re good to go!</span>
+                                <span
+                                    className={ `${ urbanist.className } font-normal text-lg lg:text-xl text-[#4C4D52]` }>And you&apos;re good to go!</span>
                             </div>
                         </div>
                     </div>
@@ -171,7 +172,8 @@ export default function TaxChecklistSection() {
                                               clipRule="evenodd"/>
                                     </svg>
                                 </div>
-                                <span className="text-xs lg:text-sm">And you&apos;re good to go!</span>
+                                <span
+                                    className={ `${ urbanist.className } font-normal text-lg lg:text-xl text-[#4C4D52]` }>And you&apos;re good to go!</span>
                             </div>
                         </div>
                     </div>
