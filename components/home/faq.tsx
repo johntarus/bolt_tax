@@ -60,7 +60,7 @@ export default function FAQSection() {
                         viewport={ {once: true} }
                     >
                         <h2
-                            className={ `${ thiccboi.className } text-5xl md:text-6xl xl:text-7xl 2xl:text-[5rem] font-bold text-[#5520B2] mb-4 md:mb-8 leading-none` }
+                            className={ `${ thiccboi.className } text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold text-[#7120FF] mb-4 md:mb-8 leading-none` }
                         >
                             Your questions,
                             <br/>
@@ -68,7 +68,7 @@ export default function FAQSection() {
                         </h2>
 
                         <p
-                            className={ `${ urbanist.className } text-xl xl:text-3xl text-[#7C3AED] mb-4 leading-none max-w-md` }
+                            className={ `${ urbanist.className } text-xl xl:text-3xl font-normal text-[#7C3AED] mb-4 leading-none max-w-md` }
                         >
                             Get quick answers to the most common <br/> questions about our platform.
                         </p>
