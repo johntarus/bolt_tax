@@ -137,23 +137,29 @@ export default function FAQSection() {
                                         </div>
                                     </button>
 
-                                    <AnimatePresence>
+                                    <AnimatePresence mode="wait">
                                         { openIndex === index && (
                                             <motion.div
-                                                key="answer"
-                                                initial={ {opacity: 0, height: 0} }
-                                                animate={ {opacity: 1, height: "auto"} }
-                                                exit={ {opacity: 0, height: 0} }
-                                                transition={ {duration: 0.4, ease: "easeInOut"} }
+                                                key={ `answer-${ index }` }
+                                                initial={ {opacity: 0, x: 50, height: 0} }
+                                                animate={ {opacity: 1, x: 0, height: "auto"} }
+                                                exit={ {opacity: 0, x: 50, height: 0} }
+                                                transition={ {duration: 0.5, ease: "easeInOut"} }
                                             >
                                                 <div className={ `${ urbanist.className } px-6 pb-6 pt-0` }>
-                                                    <p className="text-xl xl:text-2xl text-gray-900 leading-snug">
+                                                    <motion.p
+                                                        initial={ {opacity: 0, x: 30} }
+                                                        animate={ {opacity: 1, x: 0} }
+                                                        transition={ {duration: 0.4, delay: 0.1} }
+                                                        className="text-xl xl:text-2xl text-gray-900 leading-snug"
+                                                    >
                                                         { faq.answer }
-                                                    </p>
+                                                    </motion.p>
                                                 </div>
                                             </motion.div>
                                         ) }
                                     </AnimatePresence>
+
                                 </motion.div>
                             )) }
                         </div>

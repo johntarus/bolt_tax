@@ -101,10 +101,6 @@ export default function NotFoundPage() {
                         transform: translateY(0px);
                     }
                 }
-
-                .animate-float {
-                    animation: float 4s ease-in-out infinite;
-                }
             ` }</style>
         </div>
     );
