@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { motion, easeOut } from "framer-motion";
 import Lottie from "lottie-react";
 import comingSoonAnimation from "@/public/lotties/coming_soon.json";
+import { foundersGrotesk, thiccboi } from "@/app/fonts";
 
 export default function ComingSoonPage() {
     const [timeLeft, setTimeLeft] = useState({
@@ -52,7 +53,7 @@ export default function ComingSoonPage() {
         visible: {
             y: 0,
             opacity: 1,
-            transition: {duration: 0.6, ease: easeOut}, // ✅ fixed ease type
+            transition: {duration: 0.6, ease: easeOut},
         },
     };
 
@@ -122,7 +123,8 @@ export default function ComingSoonPage() {
                         className="text-5xl md:text-7xl font-bold text-gray-900 mb-6"
                         variants={ itemVariants }
                     >
-                        <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                        <span
+                            className={ `${ thiccboi.className } font-medium text-4xl md:text-6xl xl:text-7xl text-[#5520B2] mb-6` }>
                             Coming Soon
                         </span>
                     </motion.h1>

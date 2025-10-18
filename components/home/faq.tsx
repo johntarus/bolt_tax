@@ -91,7 +91,9 @@ export default function FAQSection() {
 
                     {/* Right Side - FAQ Accordion */ }
                     <motion.div
-                        className="flex-1 relative shadow-[-2px_2px_2px_#DBC7FF] rounded-2xl mt-10 lg:mt-0"
+                        className="flex-1 relative
+  shadow-[0_10px_35px_-10px_rgba(155,100,255,0.25),-10px_10px_35px_-10px_rgba(155,100,255,0.25)]
+  rounded-2xl mt-10 lg:mt-0"
                         initial={ {opacity: 0, x: 40} }
                         whileInView={ {opacity: 1, x: 0} }
                         transition={ {duration: 0.6, ease: "easeOut"} }
@@ -159,11 +161,11 @@ export default function FAQSection() {
                                             </motion.div>
                                         ) }
                                     </AnimatePresence>
-
                                 </motion.div>
                             )) }
                         </div>
                     </motion.div>
+
                 </div>
             </motion.div>
         </section>

@@ -7,7 +7,7 @@ import { thiccboi, urbanist } from "@/app/fonts";
 
 export default function WhyJoinEarlySection() {
     return (
-        <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50">
+        <section className="py-4 md:py-20 px-4 bg-gradient-to-b from-white to-gray-50">
             <div className="max-w-[90%] mx-auto flex flex-col lg:flex-row items-center gap-16">
                 {/* Left Side - US Map */ }
                 <div className="flex-1 flex justify-center">
