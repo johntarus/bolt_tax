@@ -7,7 +7,7 @@ import React from "react";
 
 export default function HowItWorksSection() {
     return (
-        <section className="py-12 md:py-20 px-4 bg-[#FBF8FF]">
+        <section className="py-12 md:py-16 px-4 bg-[#FBF8FF]">
             <div className="max-w-[90%] mx-auto">
                 <h2 className={ `${ thiccboi.className } text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-[#5520B2] mb-8 md:mb-16` }>
                     How It Works
@@ -78,7 +78,7 @@ export default function HowItWorksSection() {
                         <h4 className={ `${ urbanist.className } text-2xl xl:text-3xl font-semibold text-gray-900 mb-6` }>
                             Answer Simple<br/>Questions
                         </h4>
-                        <p className={ `${ urbanist.className } text-2xl text-[#000000] mb-8 flex-grow pr-6 lg:pr-16` }>
+                        <p className={ `${ urbanist.className } text-2xl font-normal text-[#000000] mb-8 flex-grow pr-6 lg:pr-16` }>
                             Fill in your related tax info with our guided form. We keep it jargon-free so you know
                             exactly what to do.
                         </p>
@@ -168,7 +168,7 @@ export default function HowItWorksSection() {
                         <h4 className={ `${ urbanist.className } text-2xl xl:text-3xl font-semibold text-gray-900 mb-6` }>
                             Submit & Maximize<br/>Your Refund
                         </h4>
-                        <p className={ `${ urbanist.className } text-2xl text-[#000000] mb-8 flex-grow pr-6 lg:pr-16` }>
+                        <p className={ `${ urbanist.className } text-2xl font-normal text-[#000000] mb-8 flex-grow pr-6 lg:pr-16` }>
                             File securely and get the maximum refund possible — tailored for your needs.
                         </p>
 

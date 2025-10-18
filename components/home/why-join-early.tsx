@@ -39,7 +39,7 @@ export default function WhyJoinEarlySection() {
                                 className="w-8 h-8 rounded-full bg-[#CFB0FB] flex items-center justify-center flex-shrink-0">
                                 <Check className="w-6 h-6 text-white"/>
                             </div>
-                            <span className="text-xl text-[#5520B2] font-medium">
+                            <span className="text-2xl lg:text-3xl xl:text-4xl text-[#5520B2]">
         Tax Friendly<br/>Tools
     </span>
                         </div>
@@ -49,7 +49,7 @@ export default function WhyJoinEarlySection() {
                                 className="w-8 h-8 rounded-full bg-[#CFB0FB] flex items-center justify-center flex-shrink-0">
                                 <Check className="w-6 h-6 text-white"/>
                             </div>
-                            <span className="text-xl text-[#5520B2] font-medium">
+                            <span className="text-2xl lg:text-3xl xl:text-4xl text-[#5520B2]">
         Expert Guidance
     </span>
                         </div>
@@ -59,7 +59,7 @@ export default function WhyJoinEarlySection() {
                                 className="w-8 h-8 rounded-full bg-[#CFB0FB] flex items-center justify-center flex-shrink-0">
                                 <Check className="w-6 h-6 text-white"/>
                             </div>
-                            <span className="text-xl text-[#5520B2] font-medium">
+                            <span className="text-2xl lg:text-3xl xl:text-4xl text-[#5520B2]">
         Priority Access
     </span>
                         </div>
@@ -69,7 +69,7 @@ export default function WhyJoinEarlySection() {
                                 className="w-8 h-8 rounded-full bg-[#CFB0FB] flex items-center justify-center flex-shrink-0">
                                 <Check className="w-6 h-6 text-white"/>
                             </div>
-                            <span className="text-xl text-[#5520B2] font-medium">
+                            <span className="text-2xl lg:text-3xl xl:text-4xl text-[#5520B2]">
         Exclusive resources
     </span>
                         </div>

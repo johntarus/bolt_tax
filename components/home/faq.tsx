@@ -68,7 +68,7 @@ export default function FAQSection() {
                         </h2>
 
                         <p
-                            className={ `${ urbanist.className } text-xl xl:text-3xl font-normal text-[#7C3AED] mb-4 leading-none max-w-md` }
+                            className={ `${ urbanist.className } text-2xl lg:text-3xl xl:text-4xl text-[#7120FF] mb-4 leading-none max-w-md` }
                         >
                             Get quick answers to the most common <br/> questions about our platform.
                         </p>

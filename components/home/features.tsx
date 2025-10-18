@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { urbanist, thiccboi } from "@/app/fonts";
+import React from "react";
 
 export default function FeaturesSection() {
     return (
@@ -28,9 +29,9 @@ export default function FeaturesSection() {
                             <Image
                                 src="/icons/white_arrow.png"
                                 alt="Arrow right"
-                                width={ 20 }
-                                height={ 20 }
-                                className="object-contain"
+                                width={ 25 }
+                                height={ 29 }
+                                className="object-contain ml-2"
                             />
                         </button>
                     </div>
