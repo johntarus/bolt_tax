@@ -86,17 +86,6 @@ export default function NotFoundPage() {
                         </Link>
                     </div>
                 </div>
-
-                {/* Support Message */ }
-                <div className="mt-12 p-6 bg-white rounded-2xl shadow-lg max-w-2xl mx-auto">
-                    <p className="text-gray-700">
-                        <span className="font-semibold text-[#7120FF]">Need help?</span> Our support team is here to
-                        assist you.
-                        <Link href="/contact" className="text-[#7120FF] hover:underline ml-1 font-medium">
-                            Contact us
-                        </Link>
-                    </p>
-                </div>
             </div>
 
             {/* Floating Animation */ }
