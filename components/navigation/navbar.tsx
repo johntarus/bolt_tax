@@ -35,7 +35,7 @@ const NavBar = () => {
 
                     {/* Desktop Navigation */ }
                     <nav className="hidden md:flex items-center text-[#0F161E] space-x-10">
-                        <Link href="/" className="font-medium transition-colors">
+                        <Link href="/" className="font-semibold transition-colors">
                             Home
                         </Link>
 
@@ -51,7 +51,7 @@ const NavBar = () => {
                             } }
                         >
                             <button
-                                className="flex items-center gap-1 text-[#0F161E] hover:text-[#240E4C] font-medium transition-colors">
+                                className="flex items-center gap-1 text-[#0F161E] hover:text-[#240E4C] font-semibold transition-colors">
                                 Services
                                 <ChevronDown
                                     size={ 18 }
@@ -82,12 +82,12 @@ const NavBar = () => {
                         </div>
 
                         <Link href="/blog"
-                              className="text-[#0F161E] hover:text-[#240E4C] font-medium transition-colors">
+                              className="text-[#0F161E] hover:text-[#240E4C] font-semibold transition-colors">
                             Blog
                         </Link>
 
                         <Link href="/about"
-                              className="text-[#0F161E] hover:text-[#240E4C] font-medium transition-colors">
+                              className="text-[#0F161E] hover:text-[#240E4C] font-semibold transition-colors">
                             About
                         </Link>
                     </nav>
@@ -160,7 +160,7 @@ const NavBar = () => {
                 </div>
 
                 {/* Scrollable Links */ }
-                <nav className="flex-1 overflow-y-auto p-6 space-y-6 text-lg text-[#0F161E] font-medium">
+                <nav className="flex-1 overflow-y-auto p-6 space-y-6 text-lg text-[#0F161E] font-semibold">
                     <Link href="/" onClick={ () => setIsMobileMenuOpen(false) }>Home</Link>
                     <div className="border-t border-gray-200"/>
 

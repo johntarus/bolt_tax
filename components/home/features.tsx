@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { urbanist, roboto, thiccboi } from "@/app/fonts";
+import { urbanist, thiccboi } from "@/app/fonts";
 
 export default function FeaturesSection() {
     return (
