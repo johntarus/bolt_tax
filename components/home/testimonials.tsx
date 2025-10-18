@@ -81,7 +81,7 @@ export default function TestimonialSection() {
                     {/* Right Side - Testimonials */ }
                     <div className="w-full lg:w-3/5 relative">
                         <div className="relative lg:pl-8">
-                            <h2 className={ `${ thiccboi.className } font-semibold text-4xl md:text-5xl lg:text-6xl text-[#7120FF] mb-8 lg:mb-12 leading-tight` }>
+                            <h2 className={ `${ thiccboi.className } text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-[#7120FF] mb-8 lg:mb-12 leading-tight` }>
                                 What our client say<br/>about us?
                             </h2>
 

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { urbanist, roboto } from "@/app/fonts";
+import { urbanist, roboto, thiccboi } from "@/app/fonts";
 
 export default function FeaturesSection() {
     return (
@@ -11,13 +11,13 @@ export default function FeaturesSection() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
                     {/* Left Column - Text Content */ }
                     <div>
-                        <h2 className={ `${ urbanist.className } text-4xl md:text-6xl xl:text-7xl font-bold text-[#5520B2] mb-6 leading-none` }>
+                        <h2 className={ `${ thiccboi.className } text-3xl md:text-4xl lg:text-5xl xl:text-[3.80rem] font-semibold text-[#5520B2] mb-6 leading-none` }>
                             Comprehensive Tax Solutions
                             <br/>
                             Tailored for You
                         </h2>
                         <p
-                            className={ `${ urbanist.className } text-2xl md:text-3xl xl:text-4xl text-[#5520B2] mb-8 leading-none` }
+                            className={ `${ urbanist.className } font-normal text-2xl md:text-3xl xl:text-4xl text-[#5520B2] mb-8 leading-none` }
                         >
                             Whether it&apos;s your first time filing or not, Bolt Tax makes it
                             quick and easy to stay on track.
@@ -48,11 +48,11 @@ export default function FeaturesSection() {
                             />
                         </div>
 
-                        <h3 className={ `${ urbanist.className } text-2xl md:text-4xl` }>
+                        <h3 className={ `${ urbanist.className } font-medium text-[#FFFFFF] text-2xl md:text-4xl` }>
                             Tax Compliance
                         </h3>
                         <p
-                            className={ `${ roboto.className } text-purple-100 text-xl leading-relaxed` }
+                            className={ `${ urbanist.className } font-medium text-[#FFFFFF] text-xl md:text-2xl leading-relaxed` }
                         >
                             Receive expert guidance tailored to your situation. Bolt
                             Tax&apos;s consulting service helps you make smart tax decisions,
@@ -76,11 +76,11 @@ export default function FeaturesSection() {
                             />
                         </div>
 
-                        <h3 className={ `${ urbanist.className } text-2xl md:text-4xl` }>
+                        <h3 className={ `${ urbanist.className } font-medium text-[#FFFFFF] text-2xl md:text-4xl` }>
                             Tax Consulting
                         </h3>
                         <p
-                            className={ `${ roboto.className } text-purple-100 text-xl leading-relaxed` }
+                            className={ `${ urbanist.className } font-medium text-[#FFFFFF] text-xl md:text-2xl leading-relaxed` }
                         >
                             Receive expert guidance tailored to your situation. Bolt
                             Tax&apos;s consulting service helps you make smart tax decisions,
@@ -101,11 +101,11 @@ export default function FeaturesSection() {
                             />
                         </div>
 
-                        <h3 className={ `${ urbanist.className } text-2xl md:text-4xl` }>
+                        <h3 className={ `${ urbanist.className } font-medium text-[#FFFFFF] text-2xl md:text-4xl` }>
                             Tax Withholdings
                         </h3>
                         <p
-                            className={ `${ roboto.className } text-purple-100 text-xl leading-relaxed` }
+                            className={ `${ urbanist.className } font-medium text-[#FFFFFF] text-xl md:text-2xl leading-relaxed` }
                         >
                             Receive expert guidance tailored to your situation. Bolt
                             Tax&apos;s consulting service helps you make smart tax decisions,

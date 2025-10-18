@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { thiccboi } from "@/app/fonts";
+import { thiccboi, urbanist } from "@/app/fonts";
 import { AnimatePresence, motion } from "framer-motion";
 import { ArrowUp } from "lucide-react";
 
@@ -36,10 +36,10 @@ export default function Footer() {
                 <div className="max-w-[1800px] mx-auto">
                     <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
                         <div className="lg:col-span-2 pr-0 md:pr-[20%]">
-                            <h2 className={ `${ thiccboi.className } text-3xl font-bold text-white mb-4` }>
+                            <h2 className={ `${ thiccboi.className } text-3xl font-bold text-[#FFFFFF] mb-4` }>
                                 Bolt Tax
                             </h2>
-                            <p className={ `${ thiccboi.className } text-[#FFFFFF] text-md md:text-xl mb-8 leading-relaxed` }>
+                            <p className={ `${ urbanist.className } font-medium text-[#FFFFFF] text-md md:text-xl mb-8 leading-relaxed` }>
                                 Bolt Tax is built to make tax filing simple, affordable, and stress-free for students.
                                 From maximizing refunds to offering step-by-step guidance, we&apos;re here to help you
                                 file
@@ -121,7 +121,7 @@ export default function Footer() {
 
                         {/* Right Columns - Website Links (3 columns) */ }
                         <div
-                            className={ `${ thiccboi.className } lg:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-8` }>
+                            className={ `${ thiccboi.className } font-bold lg:col-span-3 grid grid-cols-1 sm:grid-cols-3 gap-8` }>
                             {/* Column 1 */ }
                             <div>
                                 <h3 className="text-2xl font-semibold text-white mb-6">
@@ -230,18 +230,18 @@ export default function Footer() {
                 <div className="max-w-[90%] mx-auto py-6">
                     <div className="flex flex-col md:flex-row justify-between items-center gap-4">
                         {/* Copyright */ }
-                        <p className="text-[#6B2FEB] text-base">
+                        <p className={ `${ thiccboi.className } font-medium text-[#7120FF] text-base` }>
                             © 2025 Bolt Tax. All Rights Reserved
                         </p>
 
                         {/* Language Selector */ }
-                        <div className="flex gap-2">
+                        <div className={ `${ thiccboi.className } font-normal flex gap-2` }>
                             <button
                                 onClick={ () => setSelectedLanguage("English") }
                                 className={ `px-6 py-2 rounded-full font-medium transition-all ${
                                     selectedLanguage === "English"
-                                        ? "bg-[#6B2FEB] text-white"
-                                        : "text-[#A78BFA] hover:text-[#6B2FEB]"
+                                        ? "bg-[#7120FF] text-white"
+                                        : "text-[#A78BFA] hover:text-[#7120FF]"
                                 }` }
                             >
                                 English
@@ -250,8 +250,8 @@ export default function Footer() {
                                 onClick={ () => setSelectedLanguage("French") }
                                 className={ `px-6 py-2 rounded-full font-medium transition-all ${
                                     selectedLanguage === "French"
-                                        ? "bg-[#6B2FEB] text-white"
-                                        : "text-[#A78BFA] hover:text-[#6B2FEB]"
+                                        ? "bg-[#7120FF] text-white"
+                                        : "text-[#A78BFA] hover:text-[#7120FF]"
                                 }` }
                             >
                                 French
@@ -260,8 +260,8 @@ export default function Footer() {
                                 onClick={ () => setSelectedLanguage("German") }
                                 className={ `px-6 py-2 rounded-full font-medium transition-all ${
                                     selectedLanguage === "German"
-                                        ? "bg-[#6B2FEB] text-white"
-                                        : "text-[#A78BFA] hover:text-[#6B2FEB]"
+                                        ? "bg-[#7120FF] text-white"
+                                        : "text-[#A78BFA] hover:text-[#7120FF]"
                                 }` }
                             >
                                 German
@@ -279,7 +279,7 @@ export default function Footer() {
                         exit={ {opacity: 0, y: 50, scale: 0.8} }
                         transition={ {duration: 0.4, ease: "easeOut"} }
                         onClick={ scrollToTop }
-                        className="fixed bottom-8 right-8 z-50 bg-[#6B2FEB] text-white p-4 rounded-full shadow-xl hover:bg-[#5A24CC] hover:scale-110 transition-transform"
+                        className="fixed bottom-8 right-8 z-50 bg-[#7120FF] text-white p-4 rounded-full shadow-xl hover:bg-[#5A24CC] hover:scale-110 transition-transform"
                         aria-label="Back to Top"
                     >
                         <ArrowUp className="w-6 h-6"/>

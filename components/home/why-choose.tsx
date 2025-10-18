@@ -49,7 +49,7 @@ export default function WhyChooseSection() {
                 {/* Heading */ }
                 <div className="text-center mb-4">
                     <h2
-                        className={ `${ thiccboi.className } text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-[#5520B2] mb-6 leading-none` }
+                        className={ `${ thiccboi.className } text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-semibold text-[#5520B2] mb-6 leading-none` }
                     >
                         Why Thousands of Students
                         <br/>

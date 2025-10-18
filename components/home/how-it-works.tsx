@@ -9,7 +9,7 @@ export default function HowItWorksSection() {
     return (
         <section className="py-12 md:py-20 px-4 bg-[#FBF8FF]">
             <div className="max-w-[90%] mx-auto">
-                <h2 className={ `${ thiccboi.className } text-5xl md:text-6xl font-bold text-center text-[#5520B2] mb-8 md:mb-16` }>
+                <h2 className={ `${ thiccboi.className } text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-[#5520B2] mb-8 md:mb-16` }>
                     How It Works
                 </h2>
 
