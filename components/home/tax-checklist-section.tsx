@@ -134,7 +134,7 @@ export default function TaxChecklistSection() {
 
                     {/* Back Card - Income Information */ }
                     <div
-                        className="lg:absolute top-16 lg:top-20 xl:top-32 right-0 lg:right-0 xl:-right-0 2xl:right-8 bg-white rounded-2xl shadow-xl border border-gray-100 w-full lg:w-11/12 xl:w-7/12 max-w-sm xl:max-w-md overflow-hidden z-10">
+                        className="lg:absolute top-16 lg:top-20 xl:top-32 right-0 lg:right-0 xl:-right-0 2xl:rihght-8 bg-white rounded-2xl shadow-xl border border-gray-100 w-full lg:w-11/12 xl:w-7/12 max-w-sm xl:max-w-md overflow-hidden z-10">
                         <div
                             className={ `${ thiccboi.className } bg-gradient-to-r from-[#9E57FF] to-[#7A3BFE] text-white text-xl lg:text-2xl font-bold py-4 lg:py-5 xl:py-6 px-4 w-full text-center rounded-t-2xl` }>
                             TAX PREPARATION CHECKLIST
