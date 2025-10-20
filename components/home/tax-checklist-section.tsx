@@ -34,12 +34,12 @@ export default function TaxChecklistSection() {
                 <div
                     className="relative flex-1 w-full
     min-h-[500px] sm:min-h-[600px] lg:min-h-[700px] xl:min-h-[750px]
-    left-0 xl:-left-16 2xl:left-0
+    left-0 xl:-legft-16 2xl:left-0
     flex flex-col items-center justify-center">
 
                     {/* Front Card - Personal Information */ }
                     <div
-                        className="lg:absolute top-0 left-0 lg:-left-8 xl:-left-16 relative
+                        className="lg:absolute top-0 left-0 lg:-left-8 2xl:-ledft-16 relative
   w-full lg:w-11/12 xl:w-7/12 max-w-sm xl:max-w-md z-10 mb-8 lg:mb-0">
 
                         {/* Shadow Wrapper */ }
@@ -48,13 +48,13 @@ export default function TaxChecklistSection() {
  bg-white border border-gray-100 overflow-hidden">
                             <div
                                 className={ `${ thiccboi.className } bg-gradient-to-r from-[#9E57FF] to-[#7A3BFE] 
-      text-white text-xl lg:text-2xl font-bold py-4 lg:py-5 xl:py-6 px-4 
+      text-white text-xl 2xl:text-2xl font-bold py-4 lg:py-5 xl:py-6 px-4 
       w-full text-center rounded-t-2xl` }>
                                 TAX PREPARATION CHECKLIST
                             </div>
 
-                            <div className="p-4 lg:p-5 xl:p-6 lg:pr-16 xl:pr-20">
-                                <h3 className={ `${ thiccboi.className } text-xl lg:text-2xl font-bold text-[#231F20] mb-4 lg:mb-5 xl:mb-6` }>
+                            <div className="p-4 lg:p-5 xl:p-6 xl:pr-16 2xl:pr-20">
+                                <h3 className={ `${ thiccboi.className } text-xl 2xl:text-2xl font-bold text-[#231F20] mb-4 lg:mb-5 xl:mb-6` }>
                                     Personal information
                                 </h3>
 
