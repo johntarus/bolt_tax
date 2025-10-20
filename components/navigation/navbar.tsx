@@ -160,7 +160,8 @@ const NavBar = () => {
                 </div>
 
                 {/* Scrollable Links */ }
-                <nav className="flex-1 overflow-y-auto p-6 space-y-6 text-lg text-[#0F161E] font-semibold">
+                <nav
+                    className="flex-1 flex flex-col overflow-y-auto p-6 space-y-6 text-lg text-[#0F161E] font-semibold">
                     <Link href="/" onClick={ () => setIsMobileMenuOpen(false) }>Home</Link>
                     <div className="border-t border-gray-200"/>
 
