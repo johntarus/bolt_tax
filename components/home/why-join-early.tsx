@@ -23,7 +23,7 @@ export default function WhyJoinEarlySection() {
 
                 {/* Right Side - Content */ }
                 <div className="flex-1">
-                    <h2 className={ `${ thiccboi.className } text-5xl lg:text-6xl font-bold text-[#5520B2] mb-2 leading-none` }>
+                    <h2 className={ `${ thiccboi.className } text-4xl 2xl:text-6xl font-bold text-[#5520B2] mb-2 leading-none` }>
                         Why Join Early<br/>Bolt Tax?
                     </h2>
 
@@ -39,7 +39,7 @@ export default function WhyJoinEarlySection() {
                                 className="w-8 h-8 rounded-full bg-[#CFB0FB] flex items-center justify-center flex-shrink-0">
                                 <Check className="w-6 h-6 text-white"/>
                             </div>
-                            <span className="text-2xl lg:text-3xl xl:text-4xl text-[#5520B2]">
+                            <span className="text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-[#5520B2]">
         Tax Friendly<br/>Tools
     </span>
                         </div>
@@ -49,7 +49,7 @@ export default function WhyJoinEarlySection() {
                                 className="w-8 h-8 rounded-full bg-[#CFB0FB] flex items-center justify-center flex-shrink-0">
                                 <Check className="w-6 h-6 text-white"/>
                             </div>
-                            <span className="text-2xl lg:text-3xl xl:text-4xl text-[#5520B2]">
+                            <span className="text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-[#5520B2]">
         Expert Guidance
     </span>
                         </div>
@@ -59,7 +59,7 @@ export default function WhyJoinEarlySection() {
                                 className="w-8 h-8 rounded-full bg-[#CFB0FB] flex items-center justify-center flex-shrink-0">
                                 <Check className="w-6 h-6 text-white"/>
                             </div>
-                            <span className="text-2xl lg:text-3xl xl:text-4xl text-[#5520B2]">
+                            <span className="text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-[#5520B2]">
         Priority Access
     </span>
                         </div>
@@ -69,7 +69,7 @@ export default function WhyJoinEarlySection() {
                                 className="w-8 h-8 rounded-full bg-[#CFB0FB] flex items-center justify-center flex-shrink-0">
                                 <Check className="w-6 h-6 text-white"/>
                             </div>
-                            <span className="text-2xl lg:text-3xl xl:text-4xl text-[#5520B2]">
+                            <span className="text-xl md:text-2xl lg:text-2xl xl:text-3xl 2xl:text-4xl text-[#5520B2]">
         Exclusive resources
     </span>
                         </div>

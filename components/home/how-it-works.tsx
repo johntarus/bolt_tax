@@ -9,17 +9,17 @@ export default function HowItWorksSection() {
     return (
         <section className="py-12 md:py-16 px-4 bg-[#FBF8FF]">
             <div className="max-w-[90%] mx-auto">
-                <h2 className={ `${ thiccboi.className } text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-center text-[#5520B2] mb-8 md:mb-16` }>
+                <h2 className={ `${ thiccboi.className } text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl text-center text-[#5520B2] mb-8 md:mb-16` }>
                     How It Works
                 </h2>
 
                 {/* Three Cards Grid */ }
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     <div className="bg-white rounded-3xl shadow-lg p-8 flex flex-col">
-                        <h3 className={ `${ thiccboi.className } font-semibold text-2xl xl:text-4xl text-[#5C34A2] mb-6` }>
+                        <h3 className={ `${ thiccboi.className } font-semibold text-2xl 2xl:text-4xl text-[#5C34A2] mb-6` }>
                             Sign Up
                         </h3>
-                        <h4 className={ `${ urbanist.className } font-medium text-2xl xl:text-3xl text-gray-900 mb-6` }>
+                        <h4 className={ `${ urbanist.className } font-semibold text-2xl 2xl:text-3xl text-gray-900 mb-6` }>
                             Create Your Free<br/>Account
                         </h4>
                         <p className={ `${ urbanist.className } font-normal text-2xl text-[#000000] mb-8 flex-grow pdr-6 2xl:pr-16` }>
@@ -72,10 +72,10 @@ export default function HowItWorksSection() {
 
                     {/* Card 2: Enter Your Details */ }
                     <div className="bg-white rounded-3xl shadow-lg p-8 flex flex-col">
-                        <h3 className={ `${ thiccboi.className } text-2xl xl:text-4xl font-semibold text-[#5C34A2] mb-6` }>
+                        <h3 className={ `${ thiccboi.className } text-2xl 2xl:text-4xl font-semibold text-[#5C34A2] mb-6` }>
                             Enter Your Details
                         </h3>
-                        <h4 className={ `${ urbanist.className } text-2xl xl:text-3xl font-semibold text-gray-900 mb-6` }>
+                        <h4 className={ `${ urbanist.className } text-2xl 2xl:text-3xl font-semibold text-gray-900 mb-6` }>
                             Answer Simple<br/>Questions
                         </h4>
                         <p className={ `${ urbanist.className } text-2xl font-normal text-[#000000] mb-8 flex-grow pdr-6 2xl:pr-16` }>
@@ -162,10 +162,10 @@ export default function HowItWorksSection() {
 
                     {/* Card 3: Get Your Refund */ }
                     <div className="bg-white rounded-3xl shadow-lg p-8 flex flex-col">
-                        <h3 className={ `${ thiccboi.className } text-2xl xl:text-4xl font-semibold text-[#5C34A2] mb-6` }>
+                        <h3 className={ `${ thiccboi.className } text-2xl 2xl:text-4xl font-semibold text-[#5C34A2] mb-6` }>
                             Get Your Refund
                         </h3>
-                        <h4 className={ `${ urbanist.className } text-2xl xl:text-3xl font-semibold text-gray-900 mb-6` }>
+                        <h4 className={ `${ urbanist.className } text-2xl 2xl:text-3xl font-semibold text-gray-900 mb-6` }>
                             Submit & Maximize<br/>Your Refund
                         </h4>
                         <p className={ `${ urbanist.className } text-2xl font-normal text-[#000000] mb-8 flex-grow pdr-6 2xl:pr-16` }>

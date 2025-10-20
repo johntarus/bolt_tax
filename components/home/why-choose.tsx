@@ -56,7 +56,7 @@ export default function WhyChooseSection() {
                         Choose Bolt Tax
                     </h2>
                     <p
-                        className={ `${ urbanist.className } text-2xl lg:text-3xl xl:text-4xl text-[#5520B2] mx-auto` }
+                        className={ `${ urbanist.className } text-2xl lg:text-3xl 2xl:text-4xl text-[#5520B2] mx-auto` }
                     >
                         Filing taxes as a student can be overwhelming, but with Bolt Tax, you
                         don&apos;t have to do it alone.
@@ -81,13 +81,13 @@ export default function WhyChooseSection() {
                             </div>
 
                             <h3
-                                className={ `${ urbanist.className } font-medium text-2xl md:text-3xl lg:text-4xl text-[#000000] mb-4` }
+                                className={ `${ urbanist.className } font-medium text-xl md:text-2xl 2xl:text-3xl text-[#000000] mb-4` }
                             >
                                 { title }
                             </h3>
 
                             <p
-                                className={ `${ urbanist.className } font-normal text-[#000000] text-xl md:text-2xl xl:text-[1.78rem] leading-relaxed` }
+                                className={ `${ urbanist.className } font-normal text-[#000000] text-xl 2xl:text-2xl leading-relaxed` }
                             >
                                 { description }
                             </p>

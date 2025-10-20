@@ -55,10 +55,10 @@ export default function TestimonialSection() {
                 className="absolute top-1/2 -left-100 transform -translate-y-1/2 -translate-x-[35%] pointer-events-none hidden md:block"
             >
                 <div
-                    className="w-[60vw] h-[100vh] min-w-[850px] min-h-[850px] bg-[#6B46C1] rounded-full scale-y-125"
+                    className="w-[70vw] 2xl:w-[60vw] h-[100vh] min-w-[850px] min-h-[850px] bg-[#6B46C1] rounded-full scale-y-125"
                 />
                 <div
-                    className="absolute top-1/2 left-1/2 w-[45vw] 2xl:w-[35vw] h-[70vh] min-w-[500px] min-h-[500px] bg-white rounded-full transform -translate-x-1/2 -translate-y-1/2 scale-y-125"
+                    className="absolute top-1/2 left-1/2 w-[49vw] 2xl:w-[35vw] h-[70vh] min-w-[500px] min-h-[500px] bg-white rounded-full transform -translate-x-1/2 -translate-y-1/2 scale-y-125"
                 />
             </div>
 
@@ -86,7 +86,7 @@ export default function TestimonialSection() {
                             </h2>
 
                             <div
-                                className="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 md:p-10 lg:ml-[-8%] xl:ml-[-12%] min-h-[400px] flex flex-col justify-between overflow-hidden">
+                                className="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 md:p-10 lg:ml-[-8%] xl:ml-[-12%]  2xl:min-h-[400px] flex flex-col justify-between overflow-hidden">
                                 <div
                                     key={ currentSlide }
                                     className={ `transition-all duration-700 ease-out transform ${
@@ -96,16 +96,16 @@ export default function TestimonialSection() {
                                     }` }
                                 >
                                     <div className="mb-4 lg:mb-6">
-                                        <h3 className={ `${ thiccboi.className } font-extrabold text-2xl md:text-2xl lg:text-3xl text-[#000000] mb-1` }>
+                                        <h3 className={ `${ thiccboi.className } font-extrabold text-2xl 2xl:text-3xl text-[#000000] mb-1` }>
                                             { testimonials[currentSlide].name }
                                         </h3>
-                                        <p className={ `${ urbanist.className } font-normal text-[#000000] text-md md:text-xl lg:text-2xl` }>
+                                        <p className={ `${ urbanist.className } font-normal text-[#000000] text-md md:text-xl 2xl:text-2xl` }>
                                             { testimonials[currentSlide].role }
                                         </p>
                                     </div>
 
                                     <blockquote
-                                        className={ `${ urbanist.className } font-medium text-xl md:text-2xl lg:text-3xl text-[#000000] leading-relaxed` }>
+                                        className={ `${ urbanist.className } font-medium text-xl 2xl:text-3xl text-[#000000] leading-relaxed` }>
                                         { testimonials[currentSlide].quote }
                                     </blockquote>
                                 </div>

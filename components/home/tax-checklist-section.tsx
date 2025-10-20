@@ -108,7 +108,7 @@ export default function TaxChecklistSection() {
                                     </li>
                                 </ul>
 
-                                <div className="flex items-center gap-2 mt-10 lg:mt-16 text-gray-600">
+                                <div className="flex items-center gap-2 mt-6 2xl:mt-16 text-gray-600">
                                     <div
                                         className="w-4 h-4 lg:w-5 lg:h-5 bg-[#6B2FEB] rounded-full flex items-center justify-center flex-shrink-0">
                                         <svg
@@ -136,12 +136,12 @@ export default function TaxChecklistSection() {
                     <div
                         className="lg:absolute top-16 lg:top-20 xl:top-32 right-0 lg:right-0 xl:-right-0 2xl:rihght-8 bg-white rounded-2xl shadow-xl border border-gray-100 w-full lg:w-11/12 xl:w-7/12 max-w-sm xl:max-w-md overflow-hidden z-10">
                         <div
-                            className={ `${ thiccboi.className } bg-gradient-to-r from-[#9E57FF] to-[#7A3BFE] text-white text-xl lg:text-2xl font-bold py-4 lg:py-5 xl:py-6 px-4 w-full text-center rounded-t-2xl` }>
+                            className={ `${ thiccboi.className } bg-gradient-to-r from-[#9E57FF] to-[#7A3BFE] text-white text-xl 2xl:text-2xl font-bold py-4 lg:py-5 xl:py-6 px-4 w-full text-center rounded-t-2xl` }>
                             TAX PREPARATION CHECKLIST
                         </div>
 
-                        <div className="p-4 lg:p-5 xl:p-6 lg:pr-16 xl:pr-20">
-                            <h3 className={ `${ thiccboi.className } text-xl lg:text-2xl font-bold text-[#231F20] mb-4 lg:mb-5 xl:mb-6` }>
+                        <div className="p-4 lg:p-5 xl:p-6 xl:pr-8 2xl:pr-20">
+                            <h3 className={ `${ thiccboi.className } text-xl 2xl:text-2xl font-bold text-[#231F20] mb-4 lg:mb-5 xl:mb-6` }>
                                 Information about your income
                             </h3>
                             <ul className="space-y-4 lg:space-y-5 xl:space-y-6">
@@ -187,7 +187,7 @@ export default function TaxChecklistSection() {
                                 </li>
                             </ul>
 
-                            <div className="flex items-center gap-2 mt-10 lg:mt-16 text-gray-600">
+                            <div className="flex items-center gap-2 mt-6 2xl:mt-16 text-gray-600">
                                 <div
                                     className="w-4 h-4 lg:w-5 lg:h-5 bg-[#6B2FEB] rounded-full flex items-center justify-center flex-shrink-0">
                                     <svg className="w-2 h-2 lg:w-3 lg:h-3 text-white" fill="currentColor"
