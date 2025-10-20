@@ -22,12 +22,12 @@ export default function HowItWorksSection() {
                         <h4 className={ `${ urbanist.className } font-medium text-2xl xl:text-3xl text-gray-900 mb-6` }>
                             Create Your Free<br/>Account
                         </h4>
-                        <p className={ `${ urbanist.className } font-normal text-2xl text-[#000000] mb-8 flex-grow pr-6 lg:pr-16` }>
+                        <p className={ `${ urbanist.className } font-normal text-2xl text-[#000000] mb-8 flex-grow pdr-6 2xl:pr-16` }>
                             Start by signing up in just a few minutes. No hidden fees, no complicated forms.
                         </p>
 
                         <div
-                            className="bg-[#FBF8FF] py-4 px-3 lg:px-16 mb-6 rounded-3xl space-y-3 mx-auto w-full flex flex-col items-center">
+                            className="bg-[#FBF8FF] py-4 px-3 2xl:px-16 mb-6 rounded-3xl space-y-3 mx-auto w-full flex flex-col items-center">
                             <button
                                 className="w-[90%] bg-[#6B2FEB] hover:bg-[#5A24CC] text-white font-semibold py-4 px-6 rounded-xl transition-all"
                             >
@@ -78,13 +78,13 @@ export default function HowItWorksSection() {
                         <h4 className={ `${ urbanist.className } text-2xl xl:text-3xl font-semibold text-gray-900 mb-6` }>
                             Answer Simple<br/>Questions
                         </h4>
-                        <p className={ `${ urbanist.className } text-2xl font-normal text-[#000000] mb-8 flex-grow pr-6 lg:pr-16` }>
+                        <p className={ `${ urbanist.className } text-2xl font-normal text-[#000000] mb-8 flex-grow pdr-6 2xl:pr-16` }>
                             Fill in your related tax info with our guided form. We keep it jargon-free so you know
                             exactly what to do.
                         </p>
 
                         <div
-                            className="bg-[#FBF8FF] py-4 px-3 lg:px-16 mb-6 rounded-3xl space-y-3 mx-auto w-full flex flex-col items-center">
+                            className="bg-[#FBF8FF] py-4 px-3 2xl:px-16 mb-6 rounded-3xl space-y-3 mx-auto w-full flex flex-col items-center">
 
                             {/* Progress Circle 1 */ }
                             <div className="flex items-center gap-6">
@@ -168,7 +168,7 @@ export default function HowItWorksSection() {
                         <h4 className={ `${ urbanist.className } text-2xl xl:text-3xl font-semibold text-gray-900 mb-6` }>
                             Submit & Maximize<br/>Your Refund
                         </h4>
-                        <p className={ `${ urbanist.className } text-2xl font-normal text-[#000000] mb-8 flex-grow pr-6 lg:pr-16` }>
+                        <p className={ `${ urbanist.className } text-2xl font-normal text-[#000000] mb-8 flex-grow pdr-6 2xl:pr-16` }>
                             File securely and get the maximum refund possible — tailored for your needs.
                         </p>
 
